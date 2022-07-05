@@ -17,9 +17,9 @@
    ```
    
 ### Install Apache Airflow
-
+   ```
    pip install "apache-airflow==2.2.3" --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-no-providers-3.9.txt
-   
+   ```
 ### Setup Airflow databases and user
    1. Create an airflow folder in root directory
 
@@ -76,7 +76,7 @@
    
    Open airflow folder, then create a new folder named 'dags' for containing DAGs scripts:
    
-   ![Screenshot](Screenshot from 2022-07-05 15-23-00.png)
+   ![Screenshot](dag.png)
 
    
    
