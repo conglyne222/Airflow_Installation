@@ -1,6 +1,6 @@
 # AIRFLOW INSTALLATION AND FIRST SIMPLE DAGS
 
-## Installation
+## 1. INSTALLATION
 
 ### Install Virtual Environment (Conda)
 
@@ -70,7 +70,7 @@
    
    Use user credentials that you've created before to sign in
    
-## Create first simple DAGs
+## 2. CREATE FIRST SIMPLE DAGS
 
    Now when you've finished all installation for using Airflow, you will see the folder named 'airflow' in your pc
    
