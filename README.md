@@ -53,7 +53,7 @@
    Apache Airflow consists of 2 core parts which are:
    * Webserver
    * Scheduler
-   * 
+   
    There is needed for running both of them to render & inspect DAGs
    1. Webserver
    ```
