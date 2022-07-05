@@ -70,7 +70,7 @@
    
    Use user credentials that you've created before to sign in
    
-### Create first simple DAGs
+## Create first simple DAGs
 
    Now when you've finished all installation for using Airflow, you will see the folder named 'airflow' in your pc
    
