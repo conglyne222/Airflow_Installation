@@ -70,13 +70,13 @@
    
    Use user credentials that you've created before to sign in
    
-### Create first simple DAGs
+## Create first simple DAGs
 
    Now when you've finished all installation for using Airflow, you will see the folder named 'airflow' in your pc
    
    Open airflow folder, then create a new folder named 'dags' for containing DAGs scripts:
-   
-   ![Screenshot](dag.png)
+    
+![dag](https://user-images.githubusercontent.com/63545630/177286121-3c2427a3-8fba-4558-a9ea-1038d545480a.png)
 
    
    
