@@ -76,7 +76,7 @@
    
    Open airflow folder, then create a new folder named 'dags' for containing DAGs scripts:
    
-   ![Screenshot](dag.png)
+   ![Screenshot]([dag.png](https://github.com/conglyne222/Airflow_Installation/blob/main/dag.png))
 
    
    
