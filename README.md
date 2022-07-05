@@ -1,4 +1,4 @@
-# Airflow_Installation
+# AIRFLOW INSTALLATION AND FIRST SIMPLE DAGS
 
 ## Installation
 
@@ -76,7 +76,62 @@
    
    Open airflow folder, then create a new folder named 'dags' for containing DAGs scripts:
     
-![dag](https://user-images.githubusercontent.com/63545630/177286121-3c2427a3-8fba-4558-a9ea-1038d545480a.png)
+![dag](https://user-images.githubusercontent.com/63545630/177286877-96c9f39a-44aa-49f0-9fc4-ab6aab539bc5.png)
+
+   After that, open Visual Studio Code, create a new .py file inside of dags folder
+
+For instance, ```first_dag.py```
+
+Create first dag with 2 task: ```task_get_datetime``` for taking current datetime and ```task_process_datetime``` for taking detail info from current datetime (month, year, day, weekday) as the scripts uploaded
+
+![1st_dag](https://user-images.githubusercontent.com/63545630/177289252-c2be0876-b2a5-4386-a3fc-92a68406d36c.png)
+
+with chain ```task_get_datetime >> task_process_datetime``` (Execute get datetime then process datetime)
+
+Open cmd, cd into dags folder and run command below:
+```
+airflow tasks test first_airflow_dag get_datetime 2022-2-1
+```
+
+```get_datetime```: task id
+```2022-2-1```: date that you want to get
+
+As result below, now we get the current datetime:
+
+![get_date](https://user-images.githubusercontent.com/63545630/177291682-bebd6fd3-e8fd-4aec-b373-9f992d943ca5.png)
+
+Similar cmdline for ```task_process_datetime``` but replace the task_id as ```process_datetime```, you'll see the result as below
+
+![process_date](https://user-images.githubusercontent.com/63545630/177292111-8158946f-9ff6-4e57-aeeb-512e9066a77c.png)
+
+Now we got a dictionary with attributes ```day,month,year,weekday``` as we specified in the script
+
+Next stuff, let's see the interface of Airflow in your browser
+
+![airflow1](https://user-images.githubusercontent.com/63545630/177292563-bffd55a0-de4b-42f4-a75a-a7620a9876de.png)
+You can see the DAG you created
+
+![airflow2](https://user-images.githubusercontent.com/63545630/177292614-e0d3aefa-0f12-41c0-982a-33ff1897b66b.png)
+And the chain of DAG that you made
+
+## Operation System
+Ubuntu 20.04
+
+## Language
+Python 3.9
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    
    
