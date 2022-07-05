@@ -70,6 +70,8 @@
    
    Use user credentials that you've created before to sign in
    
+   ![login](https://user-images.githubusercontent.com/63545630/177294200-f93791d6-5fe6-4619-a8af-f121ca02c55b.png)
+   
 ## 2. CREATE FIRST SIMPLE DAGS
 
    Now when you've finished all installation for using Airflow, you will see the folder named 'airflow' in your pc
@@ -100,7 +102,7 @@ As result below, now we get the current datetime:
 
 ![get_date](https://user-images.githubusercontent.com/63545630/177291682-bebd6fd3-e8fd-4aec-b373-9f992d943ca5.png)
 
-Similar cmdline for ```task_process_datetime``` but replace the task_id as ```process_datetime```, you'll see the result as below
+Similar commandline for ```task_process_datetime``` but replace the task_id as ```process_datetime```, you'll see the result as below
 
 ![process_date](https://user-images.githubusercontent.com/63545630/177292111-8158946f-9ff6-4e57-aeeb-512e9066a77c.png)
 
