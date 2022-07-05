@@ -106,7 +106,7 @@ Similar commandline for ```task_process_datetime``` but replace the task_id as `
 
 ![process_date](https://user-images.githubusercontent.com/63545630/177292111-8158946f-9ff6-4e57-aeeb-512e9066a77c.png)
 
-Now we got a dictionary with attributes ```day,month,year,weekday``` as we specified in the script
+Now we got a dictionary with attributes ```day, month, year, weekday``` as we specified in the script
 
 Next stuff, let's see the interface of Airflow in your browser
 
