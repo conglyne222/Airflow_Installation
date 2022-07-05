@@ -50,15 +50,17 @@
    then press Enter, you'll see a line that is  ```User "lync" created with role "Admin"```
    
 ### Start Airflow webserver and scheduler
-   Apache Airflow consists of 2 core parts which are
+   Apache Airflow consists of 2 core parts which are:
    * Webserver
    * Scheduler
+   * 
    There is needed for running both of them to render & inspect DAGs
    1. Webserver
    ```
    airflow webserver -D
    ```
    You can see it's running on port 8080 (by DEFAULT) 
+   
    2. Scheduler
    Similar command for running Scheduler
    ```
@@ -69,6 +71,12 @@
    Use user credentials that you've created before to sign in
    
 ### Create first simple DAGs
+
+   Now when you've finished all installation for using Airflow, you will see the folder named 'airflow' in your pc
+   
+   Open airflow folder, then create a new folder named 'dags' for containing DAGs scripts:
+   
+   ![Screenshot](Screenshot from 2022-07-05 15-23-00.png)
 
    
    
